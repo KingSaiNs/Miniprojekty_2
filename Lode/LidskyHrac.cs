@@ -7,7 +7,7 @@ namespace Lode
     {
         public LidskyHrac(IPAddress ipAdresa) : base(ipAdresa)
         {
-
+           
         }
 
         public override void RozmistitLode()

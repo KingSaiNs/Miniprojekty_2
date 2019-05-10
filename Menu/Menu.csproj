@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ECDA0ECB-6DB6-44F3-A25A-6EFA274421BE}</ProjectGuid>
+    <ProjectGuid>{C42B6970-22C8-49E6-BD9B-E260D64913A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lode</RootNamespace>
-    <AssemblyName>Lode</AssemblyName>
+    <RootNamespace>Menu</RootNamespace>
+    <AssemblyName>Menu</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hra.cs" />
-    <Compile Include="Hrac.cs" />
-    <Compile Include="LidskyHrac.cs" />
-    <Compile Include="Lod.cs" />
-    <Compile Include="Menu.cs" />
-    <Compile Include="PocitacovyHrac.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Souradnice.cs" />
-    <Compile Include="StavPolicka.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

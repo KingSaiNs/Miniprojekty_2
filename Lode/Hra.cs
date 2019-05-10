@@ -97,10 +97,10 @@ namespace Lode
             if (HrajeSeProtiAI())
             {
                 throw new NotImplementedException("Tato část dosud není vyřešena.");
-
+                
                 /*
                 PocitacovyHrac protihrac = new PocitacovyHrac();
-
+                
                 Hrac.StanovitAdresuSoupere(protihrac.IpPrijem.Address);
                 protihrac.StanovitAdresuSoupere(Hrac.IpPrijem.Address);
 
