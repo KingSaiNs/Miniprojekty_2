@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Lode.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +51,7 @@
     <Compile Include="LidskyHrac.cs" />
     <Compile Include="Lod.cs" />
     <Compile Include="Menu.cs" />
+    <Compile Include="NastaveniHry.cs" />
     <Compile Include="PocitacovyHrac.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

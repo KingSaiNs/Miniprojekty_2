@@ -8,7 +8,7 @@ namespace Lode
 {
     class Menu
     {
-        static void Main(string[] args)
+        public void Vocas()
         {
             Console.WriteLine("Co chcete udelat?");
             Console.WriteLine("HRAT, NASTAVENI,KONEC");
