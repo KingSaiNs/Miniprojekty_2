@@ -10,21 +10,23 @@ namespace Lode
     {
         public void Vocas()
         {
-            Console.WriteLine("Co chcete udelat?");
-            Console.WriteLine("HRAT, NASTAVENI,KONEC");
+            Console.WriteLine("Co chcete udělat?");
+            Console.WriteLine("HRÁT, NASTAVENÍ,KONEC");
 
             string odpoved = Console.ReadLine();
 
             Hra mojeHra;
 
-            if (odpoved.ToUpper() == "HRAT")
+            if (odpoved.ToUpper() == "HRÁT")
             {
+                Console.Clear();
                 mojeHra = new Hra();
                 mojeHra.SpustitHru();
             }
-            else if (odpoved.ToUpper() == "NASTAVENI")
+            else if (odpoved.ToUpper() == "NASTAVENÍ")
             {
                new NastaveniHry().OtevritNastaveni();
+                Console.Clear();
             }
             else if (odpoved.ToUpper() == "KONEC")
             {
